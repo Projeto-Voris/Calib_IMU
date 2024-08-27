@@ -1,0 +1,11 @@
+networks:
+  ros:
+    driver: bridge
+
+
+services:
+  allan:
+    build:
+      dockerfile: Dockerfile
+
+    command: /bin/bash -c ""
